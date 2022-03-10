@@ -1,0 +1,133 @@
+<html>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+
+    <link rel="stylesheet" href="chapter422.css">  
+    <fieldset>
+        <input type="text" placeholder="Search titles" name="search"/>
+        <input type="button" value="Search"/>
+    </fieldset>
+    <fieldset>
+        <select name="actions">
+            <option value="1">Actions </option>
+            <option value="2">Archive</option>
+            <option value="3">Delete</option>
+        </select>
+        <input type="button" value="Apply"/>
+        <select name="filter">
+            <option value="1">Genre</option>
+            <option value="2">Baroque</option>
+            <option value="3">Renaissance</option>
+            <option value="4">Realism</option>
+        </select>
+        <input type="button" value="Filter"/>
+    </fieldset>
+    <fieldset>
+        <table>
+            <caption>Paintings</caption>
+            <tr class="tr1">
+                <th></th>
+                <th></th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th>Genre</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>
+                <input type="checkbox" name="index[]" value="10"/>
+                </td>
+                <td> 
+                <img src="marat.jpg" alt="death of marat" width="50" height="60">
+                </td>
+                <td>Death of Marat</td>
+                <td>David,JAcques-Louis</td>
+                <td>1793</td>
+                <td>Romanticism</td>
+                <td>
+                    <button type="submit">
+                        <img src="edit.png" alt="" width="15" height="15"/>
+                        Edit
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="checkbox" name="index[]" value="20">
+                </td>
+                <td> 
+                <img src="toledo.jfif" alt="Portrait" width="50" height="60">
+                </td>
+                <td>Portrait of Eleanor of Toledo</td>
+                <td>Bronzino,Angolo</td>
+                <td>1545</td>
+                <td>Mannerism</td>
+                <td>
+                    <button type="submit">
+                        <img src="edit.png" alt="" width="15" height="15"/>
+                        Edit
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="checkbox" name="index[]" value="30">
+                </td>
+                <td> 
+                <img src="liberty.jpg" alt="liberty" width="50" height="60">
+                </td>
+                <td>Liberty Leading the People</td>
+                <td>Delacroix,Eugene</td>
+                <td>1830</td>
+                <td>Romanticism</td>
+                <td>
+                    <button type="submit">
+                        <img src="edit.png" alt="" width="15" height="15"/>
+                        Edit
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="checkbox" name="index[]" value="40">
+                </td>
+                <td> 
+                <img src="black.jpg" alt="gb" width="50" height="60">
+                </td>
+                <td>Arrangement in Grey and Black</td>
+                <td>Whistler,James Abbott</td>
+                <td>1871</td>
+                <td>Realism/td>
+                <td>
+                    <button type="submit">
+                        <img src="edit.png" alt="" width="15" height="15"/>
+                        Edit
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="checkbox" name="index[]" value="50">
+                </td>
+                <td> 
+                <img src="caroline.jpg" alt="death of marat" width="50" height="60">
+                </td>
+                <td>Mademoiselle Caroline Riviere</td>
+                <td>Ingres,Jean-Auguste</td>
+                <td>1806</td> 
+                <td>Neo-Classicism</td>
+                <td>
+                    <button type="submit">
+                        <img src="edit.png" alt="" width="15" height="15"/>
+                        Edit
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

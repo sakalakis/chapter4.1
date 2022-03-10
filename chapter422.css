@@ -1,0 +1,26 @@
+caption
+{
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: cornflowerblue;
+}
+
+fieldset
+{
+    border: 1px solid rgb(78, 163, 202);
+    width: 90%;
+}
+body
+{
+    padding-left: 100px;
+}
+table{
+    
+    width: 90%;
+}
+th{
+    text-align: left;
+}
+td {
+    font-style: italic;
+}
